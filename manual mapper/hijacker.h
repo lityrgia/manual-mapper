@@ -200,6 +200,7 @@ HANDLE GethijackedHandle(DWORD pID)
 		{
 
 			CleanAndExit("[!] Bad AlloC");
+			system("PAUSE");
 		}
 		Sleep(1);
 
@@ -210,6 +211,7 @@ HANDLE GethijackedHandle(DWORD pID)
 	if (!NT_SUCCESS(ntRet))
 	{
 		CleanAndExit("[!] NtQuery Didnt Success");
+		system("PAUSE");
 	}
 
 	for (unsigned int i = 0; i < hInfo->HandleCount; ++i)
@@ -221,6 +223,7 @@ HANDLE GethijackedHandle(DWORD pID)
 		if (NumOfHandles > 100)
 		{
 			CleanAndExit("[!] Handle Leakage");
+			system("PAUSE");
 		}
 
 		if (hInfo->Handles[i].ObjectTypeName != ProcessHandleType)
