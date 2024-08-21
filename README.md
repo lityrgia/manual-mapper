@@ -8,9 +8,10 @@ and hijacking process by duplicating it's handle to process. (It's sometimes cra
 
 # ⚡ How-to-use
 
-1. Paste your dll path, example (witch.dll, B:\Folders\good.dll)
-2. Enter process name, (minecraft.exe, cs2.exe)
-3. Wait till inject end
+1. Run mapper as administrator
+2. Paste your dll path, example (witch.dll, B:\Folders\good.dll)
+3. Enter process name, (minecraft.exe, cs2.exe)
+4. Wait till inject end
 
 # ☕ Credits
 
