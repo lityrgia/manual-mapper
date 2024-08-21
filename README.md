@@ -13,6 +13,10 @@ and hijacks the process by duplicating its handle. (it sometimes crashes, idk wh
 3. Enter process name, (minecraft.exe, cs2.exe)
 4. Wait till inject end
 
+# 🏠 Build
+
+x86/x64 Release
+
 # ☕ Credits
 
 Thanks to https://github.com/TheCruZ for manual mapper base
